@@ -49,5 +49,5 @@ const modal = document.getElementById("admin-modal");
 const closeBtn = document.querySelector(".close-btn");
 const form = document.getElementById("admin-form");
 // Logic to show/hide modal and handle submission would go here.
-</script>
+</script> 
 
