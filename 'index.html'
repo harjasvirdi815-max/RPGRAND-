@@ -42,4 +42,12 @@
         </form>
     </div>
 </body>
-</html>
+</html> Here is the JavaScript code with the script tag:
+<script>
+// Get elements
+const modal = document.getElementById("admin-modal");
+const closeBtn = document.querySelector(".close-btn");
+const form = document.getElementById("admin-form");
+// Logic to show/hide modal and handle submission would go here.
+</script>
+
