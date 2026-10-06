@@ -18,7 +18,7 @@
     </style>
 </head>
 <body>
-    <div class="form-container">
+'alt;button id="apply-btn"&gt;Apply Now&lt;/ button&gt;    <div class="form-container">
         <h2>एडमिन एप्लीकेशन</h2>
         <form action="/submit-application" method="POST">
             <div class="form-group">
