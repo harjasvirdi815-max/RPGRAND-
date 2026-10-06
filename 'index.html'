@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>एडमिन एप्लीकेशन</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; }
+        .form-container { max-width: 400px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h2 { text-align: center; color: #333; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; color: #666; }
+        input[type="text"], input[type="email"], input[type="password"] { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+        .checkbox-group { margin-bottom: 15px; }
+        .checkbox-group label { display: inline-block; margin-right: 15px; }
+        button { width: 100%; padding: 10px; background-color: #0056b3; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background-color: #004494; }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>एडमिन एप्लीकेशन</h2>
+        <form action="/submit-application" method="POST">
+            <div class="form-group">
+                <label for="username">यूजरनेम या ईमेल</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">पासवर्ड</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="icname">IC नाम</label>
+                <input type="text" id="icname" name="icname" required>
+            </div>
+            <div class="checkbox-group">
+                <label>क्यूरेटर:</label>
+                <label><input type="radio" name="curator" value="crime"> क्राइम</label>
+                <label><input type="radio" name="curator" value="state"> स्टेट</label>
+            </div>
+            <button type="submit">जारी रखें</button>
+        </form>
+    </div>
+</body>
+</html>
